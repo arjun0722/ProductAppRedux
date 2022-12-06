@@ -1,0 +1,66 @@
+.header {
+  margin: 0 2.5rem;
+  padding: 0.5rem 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+a > span {
+  margin: 0 30px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: white;
+}
+
+.user__avatar {
+  font-size: 2rem;
+}
+.vosco {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px red;
+}
+.vosco:hover {
+  color: red;
+}
+
+.header_input {
+  height: 2rem;
+  width: 15rem;
+  outline: none;
+
+  border-radius: 4px;
+
+  font-size: 15px;
+}
+.tabs {
+  margin-top: 2rem;
+}
+.tabs_btn {
+  height: 2.5rem;
+  width: 7rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  background: black;
+  outline: none;
+  border: 1px solid #b1b1b1;
+  margin: 5px;
+}
+.tabs_btn:hover {
+  transform: scale(1.2);
+  z-index: 2000;
+  box-shadow: rgb(255, 3, 3) 0px 54px 55px, rgb(255, 4, 4) 0px -12px 30px,
+    rgb(255, 5, 5) 0px 4px 6px, rgb(255, 0, 0) 0px 12px 13px,
+    rgb(255, 5, 5) 0px -3px 5px;
+}
+.cart_btn {
+  height: 2rem;
+  width: 7rem;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
